@@ -3,6 +3,8 @@ import React from "react";
 const App = () => {
   
   const user_1 = JSON.parse(localStorage.getItem("user"));
+  console.log(user_1);
+  
   const user = {
     username: "Girish",
     age: 34,
